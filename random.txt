@@ -1,0 +1,7 @@
+function generarRandom(desde, hasta){
+      var min = parseInt(desde);
+      var max = parseInt(hasta);
+
+      var valor = Math.floor(Math.random() * (max - min + 1)) + min
+       return valor;
+}

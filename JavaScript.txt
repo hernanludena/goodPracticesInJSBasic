@@ -1,0 +1,66 @@
+---JAVAScript--
+tag script
+archivo externo
+
+ <script type="text/javascript" src="ejercicio3.js"></script>
+ 
+ asignacion: =
+ comparacion: ==
+ incremental:
+ ++numero;
+ --numero;
+ Negacion: !
+ and: &&
+ or ||
+ 
+ % residuo (modulo)mod
+ "5" + 5 = ?  (55)
+ "hola"+5 = ? (hola5)
+ >
+ <
+ !=
+ >= <=
+ 
+ 
+ control de flujo
+ if(con){}
+ if else
+ for(var i=0;;){}
+ 
+ Ambito de variables
+ function creaMSN{
+ var mensaje  -->local  //sin var es global
+ }
+ var msn -->global //fuera del metodo
+ 
+ 
+ Cadenas
+ subString()
+ 
+ Arrays
+ lenght
+ concat()
+ pop()
+ push()
+ 
+ ------------------------------------------
+ /*
+
+function Persona(nombre,apellido){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    var x=5; //no es atributo
+}
+
+var p1=new Persona("xx","yy");
+alert(p1.nombre);
+p1.apellido='xxx';
+
+
+
+*/
+
+pagina nombre apellido edad
+pagina con 3 datos
+agregar - toma valores e instancia un objeto con el constructor.
+agregar la persona a un arreglo con push

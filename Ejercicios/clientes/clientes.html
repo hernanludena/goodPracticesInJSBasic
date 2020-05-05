@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=iso-8859-1"/>
+        <link href="estilos.css" rel=stylesheet>
+       <title>Canvas</title> 
+        <script type="text/javascript" src="clientes.js"></script>
+    </head>
+    
+    <body>   
+        <form name = "p"> 
+            
+        <br>Mensajes:
+        <h2>
+            <output id = "mensajes" name="msn"> </output>             </h2>
+            
+        <br>Cedula: 
+        <input type="text" name="cedula"/>
+        <br>Nombre: 
+        <input type="text" name="nombre"/>
+        <br>Apellido:
+        <input type="text" name="apellido"/>
+        <br>Edad:
+        <input type="number" name="edad"/>        
+        
+         <input type="button" value="Guardar" onclick="guardar()"/>
+        
+        
+        <br>Clientes:
+          <br>
+          <textarea name="ta_clientes"></textarea>
+          <br>
+          <input type="button" value="ImprimirClientes" onclick="mostrarClientes()"/> 
+            
+            <br>
+          <input type="button" value="pop" onclick="test_pop()"/> 
+        
+        
+        <br>Cedula:   
+        <input type="number" name="numero_cedula"/>
+        
+        <br>
+        <input type="button" value="buscar" onclick="buscar_persona()"/> 
+            
+            
+        <br>
+        <input type="button" value="Categorizar" onclick="categoriza()"/> 
+            
+          <br>
+        <input type="button" value="ModificaCredito1" onclick="modificar_credito()"/>
+            
+            <input type="button" value="ModificaCredito2" onclick="mod_credito()"/>
+            
+            
+        <input type="button" value="ModificaCredito3" onclick="mod_credito3()"/>
+            
+       </form>
+        
+    </body>  
+    
+    
+</html>
+    
+ 
+
